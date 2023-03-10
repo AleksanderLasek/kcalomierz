@@ -8,6 +8,7 @@ console.log($output.textContent);
 
 
 $button.addEventListener("click", () => {
-    wynik = $kalorie.value/$gramy.value;
+    wynik = ($kalorie.value*$gramy.value)/100;
+    wynik = Math.round(wynik*100)/100;
     $output.textContent = wynik.toString();
 })

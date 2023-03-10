@@ -1,8 +1,7 @@
 * {
-box-sizing: border-box;
-margin: 0;
-        border: 0;
-
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
 }
 
 body{
@@ -13,41 +12,47 @@ body{
     height: 100vh;
 }
 
-@media screen and (max-width: 768px) {
-    .container{
-         background: white url("https://media.tenor.com/3-M2qYsowhYAAAAd/dom-dom-yes-yes-fat.gif") no-repeat center; 
-        width: 340px;
-        height: 630px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+.container{
+    background: white url("https://media.tenor.com/3-M2qYsowhYAAAAd/dom-dom-yes-yes-fat.gif") no-repeat center; 
+    width: 340px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    input{
-        border-radius: 5px;
-        margin-bottom: 4vh;
-    }
+input{
+    border-radius: 5px;
+    margin-bottom: 4vh;
+    background-color: #Ffdff7;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px -6px rgba(66, 68, 90, 1);
+}
 
-    button{
-        border-radius: 5px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: large;
-        width: 100px;
-        height: 25px;
-        margin-bottom: 4vh;
-    }
+button{
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    width: 100px;
+    height: 25px;
+    margin-bottom: 4vh;
+    background-color: #Ffdff7;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px -6px rgba(66, 68, 90, 1);
+}
 
-    output{
-        display: block;
-        background-color: white;
-        border-radius: 5px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: large;
-        width: 100px;
-        height: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+output{
+    display: block;
+    background-color: #Ffdff7;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px -6px rgba(66, 68, 90, 1);
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
